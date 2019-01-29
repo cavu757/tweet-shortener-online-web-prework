@@ -6,10 +6,10 @@ def dictionary
 		"too" => "2",
 		"four" => "4",
 		"for" => "4",
-		"be" =>s "b",
-		"you" =>s "u",
-		"at" =>s "@", 
-		"and" =>s "&"
+		"be" => "b",
+		"you" => "u",
+		"at" => "@", 
+		"and" => "&"
 	}
 end
 

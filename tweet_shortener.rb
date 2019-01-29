@@ -15,6 +15,7 @@ def dictionary
 end
 
 def word_substituter(tweet)
-
+  temp_tweet = tweet.split(" ")
+  puts temp_tweet
 
 end

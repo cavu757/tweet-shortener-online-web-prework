@@ -22,7 +22,7 @@ def word_substituter(tweet)
         word = value
       end
     end
-    new_tweet << word 
+  new_tweet << word 
   end
   puts new_tweet
 

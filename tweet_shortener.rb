@@ -44,5 +44,6 @@ def selective_tweet_shortener(tweet)
 end
 
 def shortened_tweet_truncator(tweet)
+  puts word_substituter(tweet)[0..139]
   word_substituter(tweet)[0..139]
 end

@@ -16,8 +16,13 @@ end
 
 def word_substituter(tweet)
   temp_tweet = tweet.split(" ")
-  temp_tweet.each do |temp_word|
-    
+  temp_tweet.each do |word|
+    dictionary.each do |key, value|
+      if word == key
+        word = value
+      end
+    end
+  end
   puts temp_tweet
 
 end

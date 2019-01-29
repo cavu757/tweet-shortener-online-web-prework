@@ -1,5 +1,5 @@
 def dictionary
-	dictionary => {
+	dictionary = {
 		"hello" => "hi",
 		"to" => "2",
 		"two" => "2",
@@ -11,7 +11,7 @@ def dictionary
 		"at" => "@", 
 		"and" => "&"
 	}
-	end
+
 end
 
 def word_substituter(tweet)

@@ -22,10 +22,12 @@ def word_substituter(tweet)
       if word == key
         word = value
       end
-       
     end
     new_tweet << word
   end
   new_tweet = new_tweet.join(" ")
-  
+end
+
+def bulk_tweet_shortener(array_tweets)
+  puts array_tweets.each {|tweet| word_substituter(tweet)}
 end

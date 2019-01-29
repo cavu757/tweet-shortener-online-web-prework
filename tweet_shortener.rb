@@ -16,6 +16,8 @@ end
 
 def word_substituter(tweet)
   temp_tweet = tweet.split(" ")
+  temp_tweet.each do |temp_word|
+    
   puts temp_tweet
 
 end

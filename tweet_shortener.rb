@@ -15,6 +15,7 @@ def dictionary
 end
 
 def word_substituter(tweet)
+  new_tweet = []
   temp_tweet = tweet.split(" ")
   temp_tweet.each do |word|
     dictionary.each do |key, value|

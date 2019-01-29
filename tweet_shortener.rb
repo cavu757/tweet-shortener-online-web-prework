@@ -22,8 +22,9 @@ def word_substituter(tweet)
       if word == key
         word = value
       end
-      new_tweet << word 
+       
     end
+    new_tweet << word
   end
   puts new_tweet
 
